@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [frmMain.cs](./CS/ExplicitUnitOfWorkDemo/frmMain.cs) (VB: [frmMain.vb](./VB/ExplicitUnitOfWorkDemo/frmMain.vb))
+* [SequenceGenerator.cs](./CS/ExplicitUnitOfWorkDemo/SequenceGenerator.cs) (VB: [SequenceGenerator.vb](./VB/ExplicitUnitOfWorkDemo/SequenceGenerator.vb))
+<!-- default file list end -->
 # How to generate a sequential number for a business object within a database transaction
 
 
