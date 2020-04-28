@@ -1,10 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitUnitOfWorkDemo", "ExplicitUnitOfWorkDemo\ExplicitUnitOfWorkDemo.csproj", "{FE30EE15-3E99-473C-B137-A5F4C058F293}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplicitUnitOfWorkDemo_NetCore", "ExplicitUnitOfWorkDemo_NetCore\ExplicitUnitOfWorkDemo_NetCore.csproj", "{B3A8A298-3C00-4877-BB60-86DA79064DA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,8 +16,15 @@ Global
 		{FE30EE15-3E99-473C-B137-A5F4C058F293}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE30EE15-3E99-473C-B137-A5F4C058F293}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE30EE15-3E99-473C-B137-A5F4C058F293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A8A298-3C00-4877-BB60-86DA79064DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A8A298-3C00-4877-BB60-86DA79064DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A8A298-3C00-4877-BB60-86DA79064DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A8A298-3C00-4877-BB60-86DA79064DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29780197-18B3-4432-99A0-C11410BEC660}
 	EndGlobalSection
 EndGlobal
