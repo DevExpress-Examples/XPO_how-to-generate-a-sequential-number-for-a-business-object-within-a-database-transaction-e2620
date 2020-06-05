@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.3-ctp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ExplicitUnitOfWorkDemo - VB\BusinessObjects.vb" Link="BusinessObjects.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo - VB\frmMain.vb" Link="frmMain.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo - VB\frmMain.Designer.vb" Link="frmMain.Designer.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo - VB\Program.vb" Link="Program.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo\Properties - VB\Resources.Designer.vb" Link="Resources.Designer.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo\Properties - VB\Settings.Designer.vb" Link="Settings.Designer.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo - VB\SequenceGenerator.vb" Link="SequenceGenerator.vb" />
+    <Compile Include="..\ExplicitUnitOfWorkDemo\Utils - VB\DBHelper.vb" Link="Utils\DBHelper.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\ExplicitUnitOfWorkDemo - VB\frmMain.resx" Link="frmMain.resx" />
+    <EmbeddedResource Include="..\ExplicitUnitOfWorkDemo\Properties - VB\Resources.resx" Link="Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ExplicitUnitOfWorkDemo - VB\App.config" Link="App.config" />
+    <None Include="..\ExplicitUnitOfWorkDemo\Properties - VB\Settings.settings" Link="Settings.settings" />
+  </ItemGroup>
+</Project>
