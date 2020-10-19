@@ -5,7 +5,7 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.7-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.8-ctp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utils\" />
