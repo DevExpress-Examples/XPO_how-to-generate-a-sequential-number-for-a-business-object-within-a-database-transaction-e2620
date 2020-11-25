@@ -10,7 +10,7 @@
     <RootNamespace />
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.8-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.9-ctp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Utils\" />
