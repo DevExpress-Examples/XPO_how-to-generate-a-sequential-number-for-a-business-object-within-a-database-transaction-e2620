@@ -21,7 +21,7 @@ Hence, the current solution will also work in a scenario with high-volume of con
 
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XPO_how-to-generate-a-sequential-number-for-a-business-object-within-a-database-transaction-e2620&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=XPO_how-to-generate-a-sequential-number-for-a-business-object-within-a-database-transaction-e2620&~~~was_helpful=no)
 
